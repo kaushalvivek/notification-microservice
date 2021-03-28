@@ -1,0 +1,14 @@
+version: "3.3"
+services:
+  api:
+    container_name: notification-api
+    restart: always
+    env_file: .env
+    build: ./api/
+    ports:
+      - "${PORT}:${PORT}"
+  consumer:
+    container_name: notification-consumer
+    restart: always
+    env_file: .env
+    build: ./consumer/

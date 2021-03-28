@@ -1,0 +1,32 @@
+{
+  "name": "notification-consumer",
+  "version": "1.0.0",
+  "description": "A consumer for notifications queued in SQS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "standard",
+    "lint:fix": "standard --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaushalvivek/notification-microservice.git"
+  },
+  "author": "kaushalvivek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kaushalvivek/notification-microservice/issues"
+  },
+  "homepage": "https://github.com/kaushalvivek/notification-microservice#readme",
+  "dependencies": {
+    "@sendgrid/mail": "^7.4.2",
+    "aws-sdk": "^2.855.0",
+    "dotenv": "^8.2.0",
+    "https": "^1.0.0",
+    "sqs-consumer": "^5.5.0",
+    "twilio": "^3.57.0"
+  },
+  "devDependencies": {
+    "standard": "^16.0.3"
+  }
+}
