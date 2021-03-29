@@ -1,4 +1,4 @@
-# Notification Micro-service
+# Notification Microservice
 
 ![https://img.shields.io/badge/version-v1.0.0-green](https://img.shields.io/badge/version-v1.0.0-green)
 
